@@ -32,13 +32,7 @@ const saveImages = function(arr) {
       let name = arr[i].name,
           url  = arr[i].photoUrl,
           path = 'images/',
-          ext;
-
-      if (url.endsWith('.jpg')) {
-        ext = '.jpg';
-      } else if (url.endsWith('.png')) {
-        ext = '.png';
-      }
+          ext = url.substring(url.lastIndexOf('.'), url.length);
 
       const imgFileName = path + name + ext;
 
