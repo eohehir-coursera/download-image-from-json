@@ -44,4 +44,4 @@ const saveImages = function(arr) {
   }
 }
 
-saveImages(input.staffMembers);
+saveImages(input);
