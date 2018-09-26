@@ -1,0 +1,14 @@
+{
+  "name": "image_downloader",
+  "version": "1.0.0",
+  "description": "A script to loop through a JSON blob, download, and rename images",
+  "main": "index.js",
+  "author": "Eoin Thomas O’Hehir <eohehir@coursera.org>",
+  "license": "MIT",
+  "private": false,
+  "dependencies": {
+    "fs": "^0.0.1-security",
+    "http": "^0.0.0",
+    "https": "^1.0.0"
+  }
+}
